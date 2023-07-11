@@ -13,7 +13,7 @@
         android:theme="@style/Theme.StateFlow"
         tools:targetApi="31">
         <activity
-            android:name=".tut4"
+            android:name=".tut5_shared_flow"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,15 +22,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Tut2"
+            android:name=".tut4"
             android:exported="true">
 
         </activity>
         <activity
+            android:name=".Tut2"
+            android:exported="true"></activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
